@@ -1,14 +1,27 @@
 var images = [
-    "./png/main button play.png",
-    "./png/main button discord.png",
-    "./png/main button server.png"
+    {
+    src: "./png/main button play.png",
+    link: "./"
+    },
+    {
+    src: "./png/main button discord.png",
+    link: "./"
+    },
+    {
+    src: "./png/main button server.png",
+    link: "./"
+    },
 ];
 var num = 0;
 function next(){
+    var hrefimg = document.getElementById("hrefimg");
     var  slider = document.getElementById("slider");
     num--;
     if(num < 0 ){
         num = images.length-1;
     }
-    slider.src = images[num];
+    var item = images[num];
+    slider.src = item.src;
+    hrefimg.href = item.link;
+    console.log(item)
 }
