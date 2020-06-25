@@ -1,7 +1,7 @@
 var images = [
     {
     src: "./png/main button play.png",
-    link: "./"
+    link: "./main/main.html"
     },
     {
     src: "./png/main button discord.png",
@@ -9,7 +9,7 @@ var images = [
     },
     {
     src: "./png/main button server.png",
-    link: "./"
+    link: "./main/main.html"
     },
 ];
 var num = 0;
