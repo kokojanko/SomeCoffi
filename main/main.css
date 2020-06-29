@@ -10,7 +10,7 @@
     width: calc(100% - 80%);
     height: 100px;
     float: left;
-}
+} 
 #sidebarpage{
     width: 235px;
     height: 95px;
@@ -53,4 +53,19 @@ a{
 }
 #logoimg{
     transform: translateX(-85px) translateY(-50px);
+}
+@media screen and (max-width: 1280px){
+    .photo{
+        width: 501px;
+        height: 371px;
+    }
+    .discription{
+        width: 501px;
+        height: 371px;
+        transform: translateY(-768px);
+    }
+    .logoserv{
+        height: 373px;
+        transform: translateY(-1531px) translateX(509px);
+    }
 }

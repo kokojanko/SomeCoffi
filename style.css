@@ -1,6 +1,6 @@
 body{
     background: url(./png/background\ first\ page.jpg) no-repeat;
-    background-size: cover;
+    background-size: 1280px 1024px;
 }
 #sidebar{
     width: 100%;
@@ -44,4 +44,20 @@ body{
 a{
   text-decoration: none;
   color: rgb(25, 0, 255);
+}
+@media screen and (max-width: 1280px){  
+  body{
+    background: url(./png/background\ first\ page.jpg) no-repeat;
+    background-size: cover;
+}
+  #slider{
+    margin-left: 480px;
+    margin-top: 150px;   
+  }
+  #buttonslider{
+    margin-top: 350px;
+  }
+  #sidebar{
+    width: calc(1280px - 20px);
+}
 }

@@ -5,7 +5,7 @@ var images = [
     },
     {
     src: "./png/main button discord.png",
-    link: "./"
+    link: "https://discord.gg/gYPmWaR"
     },
     {
     src: "./png/main button server.png",
