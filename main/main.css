@@ -5,7 +5,7 @@
     background-color: rgb(0, 0, 0);
     color: rgb(199, 199, 199);
 }
-
+ 
 .sidebarpage{
     width: calc(100% - 80%);
     height: 100px;
@@ -24,6 +24,8 @@
 }
 #logo{
     transform: translateY(-0px) translateX(90px);
+    width: 90px; 
+    height: 130px;
 }
 a{
     text-decoration: none;
@@ -67,5 +69,40 @@ a{
     .logoserv{
         height: 373px;
         transform: translateY(-1531px) translateX(509px);
+    }
+}
+@media screen and (max-width: 991px){
+    #adaptiv{
+        transform: translateX(-300px);
+    }
+    #logo{
+        width: 55px;
+        height: 70px;
+    }
+    .PhotosInBorders{
+        width: 401px;
+        height: 201px;
+
+    }
+    .photo{
+        width: 402px;
+        height: 202px;
+    }
+    .logoserv{
+        width: 185px;
+        height: 203px;
+        transform: translateY(-851px) translateX(415px);
+    }
+    .logoimg{
+        transform: translateX(-58px) translateY(-50px);
+        width: 300px;
+        height: 300px;
+    }
+    .discription{
+        font-size: 1.3em;
+        width: 310px;
+        height: 202px;
+        margin-left: 610px;
+        transform: translateY(-428px);
     }
 }

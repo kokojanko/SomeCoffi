@@ -3,7 +3,7 @@ var images = [
     src: "./png/main button play.png",
     link: "./main/main.html"
     },
-    {
+    { 
     src: "./png/main button discord.png",
     link: "https://discord.gg/gYPmWaR"
     },
