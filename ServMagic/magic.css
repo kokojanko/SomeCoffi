@@ -1,3 +1,6 @@
+ul{
+    list-style: none;
+}
 .logo{
     transform: translateY(-100px) translateX(-50px);
 }
