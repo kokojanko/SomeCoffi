@@ -6,40 +6,23 @@
         <script src="./main.js"></script>
     </head>
     <body>
-        <header> 
-            <div id="sidebar"> 
-                <div class="sidebarpage">
-                    <a href="">
-                    <h3 class="sidebarP">главная</h3>
-                    </a>
-                </div>
-                <div  class="sidebarpage">
-                    <a href="./ServMagic/magic.html">
-                    <h3 class="sidebarP">magitech</h3>
-                    </a> 
-                </div>
-                <div  class="sidebarpage">
-                    <a href="./tech/tech.html">
-                    <h3 class="sidebarP">tech</h3>
-                    </a>
-                </div>
-                <div  class="sidebarpage">
-                    <a href="./call/call.html">
-                    <h3 class="sidebarP">связь</h3>
-                    </a>
-                </div>
-                <div id="sidebarpage">
-                    <img src="./png/invisiblLogo.png" width="60px" height="90px" id="logo">
-                </div>
+        <header>
+            <div class="wrappersidebar">
+                <a href="" class="sidebarA" > main </a>
+                <a href="./ServMagic/magic.html" class="sidebarA"> magic </a>
+                <a href="./tech/tech.html" class="sidebarA"> tech</a>
+                <a href="./call/call.html" class="sidebarA"> call </a>
             </div>
         </header>
         <article>
+            <div class="sliderdiv">
             <a href="./main/main.html" id="hrefimg">
             <img id="slider" src="./png/main button play.png" width="500px" height="500px"/>
             </a>
-            <button onclick="next() " id="buttonslider" >
-                >
+            <button onclick="next() " class="buttonslider" >
+                next
             </button>
+            </div>
         </article>
     </body>
 </html>
