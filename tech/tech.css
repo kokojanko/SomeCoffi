@@ -25,9 +25,12 @@
 }
 .firstlist{
     float: left;
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 .secondlist{
     float: left;
+    font-size: 2.5em;
+}
+.ip{
     font-size: 1.5em;
 }
