@@ -13,11 +13,12 @@ body{
   font-size: 3em;
 }
 
-.sliderdiv{
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-  display: block;
+.sliderdiv{ 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 .buttonslider{
   background-color: rgba(255, 255, 255, 0);
