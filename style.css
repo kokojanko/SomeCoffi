@@ -1,6 +1,7 @@
 body{
     background: url(./png/background\ first\ page.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .wrappersidebar{
   background-color: black;
