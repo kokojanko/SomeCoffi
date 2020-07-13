@@ -1,0 +1,23 @@
+body{
+    background: url(./png/beutifulpng.png) repeat;
+    background-size: 100%;
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+}
+.logo{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.wrapper{
+    display: flex;
+}
+.logo:hover{
+    width: 120%;
+    transition: 0.5s;
+}

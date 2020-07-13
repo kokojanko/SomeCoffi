@@ -25,12 +25,19 @@
 }
 .firstlist{
     float: left;
-    font-size: 2.5em;
+    width: 49%;
 }
-.secondlist{
+.thirdlist{
     float: left;
-    font-size: 2.5em;
+    width: 49%;
 }
 .ip{
     font-size: 1.5em;
+}
+.wrapper{
+    display: flex;
+    font-size: 2em;
+}
+.wrapperimg img{
+    width: 100%;
 }

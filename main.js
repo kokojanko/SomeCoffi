@@ -9,7 +9,7 @@ var images = [
     },
     {
     src: "./png/main button server.png",
-    link: "./main/main.html"
+    link: "./choise/choise.html"
     },
 ];
 var num = 0;
