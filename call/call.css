@@ -1,6 +1,7 @@
 body{
     background: url(./png/backgroundcall.jpg) no-repeat;
     background-size: 100%;
+    background-position: center;
 }
 .call{
     font-size: 3em;

@@ -27,7 +27,7 @@ body{
   border: 0px;
   position: absolute;
   color: rgb(25, 0, 255);
-  background-color: rgba(255, 0, 0, 0.644);
+  background-color: rgba(0, 0, 0, 0.644);
   border-radius: 10px;
   margin-top: 200px;
 }

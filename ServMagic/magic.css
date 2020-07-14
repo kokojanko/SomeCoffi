@@ -37,27 +37,6 @@ ul{
 .secondpart .wrapper {
     padding: 2rem;
 }
-@media screen and (max-width:991px){
-    .listmod{
-        font-size: 1.5em;
-    }
-    
-    .MAGIC{
-        font-size: 1.5em;
-        transform:  translateX(-100px);
-    }
-    .logo{
-        width: 400px;
-        height: 400px;
-        margin-top: 70px;
-    }
-    .minidiscription{
-        height: 300px;
-        width: 715px;
-        margin-left: 350px;
-        font-size: 2.5em;
-    }
-    .photo img {
-        width: 100%;
-    }
+.photo{
+    width: 100%;
 }
